@@ -106,3 +106,8 @@ p {
 li {
   font-size: 18px;
 }
+
+
+#newGame:hover{
+  color: chartreuse;
+}
