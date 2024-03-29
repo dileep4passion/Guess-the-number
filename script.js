@@ -47,12 +47,12 @@ function validateGuess(guess) {
 function checkGuess(guess) {
   if (guess === randomNumber) {
     alert(`You guessed it right`);
-    displayMessage('Congrats User !')
+    displayMessage("Congrats User !");
     endGame();
   } else if (guess < randomNumber) {
-    displayMessage(`Number is TOOO low`);
+    displayMessage(`Number is low`);
   } else if (guess > randomNumber) {
-    displayMessage(`Number is TOOO High`);
+    displayMessage(`Number is High`);
   }
 }
 
