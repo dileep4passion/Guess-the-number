@@ -60,7 +60,7 @@ function displayGuess(guess) {
   userInput.value = "";
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
-  remaining.innerHTML = `${11 - numGuess} `;
+  remaining.innerHTML = `${10 - numGuess} `;
 }
 
 function displayMessage(message) {
@@ -86,7 +86,7 @@ function newGame() {
     prevGuess = [];
     numGuess = 1;
     guessSlot.innerHTML = "";
-    remaining.innerHTML = `${11 - numGuess} `;
+    remaining.innerHTML = `${10 - numGuess} `;
     userInput.removeAttribute("disabled");
     startOver.removeChild(p);
     playGame = true;
