@@ -82,7 +82,7 @@ function newGame() {
   newGameButton.addEventListener("click", function (e) {
     randomNumber = parseInt(Math.random() * 100 + 1);
     console.clear();
-    console.log(randomNumber);
+    console.log(`$new number is{randomNumber}`);
     prevGuess = [];
     numGuess = 1;
     guessSlot.innerHTML = "";
